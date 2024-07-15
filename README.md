@@ -1,4 +1,4 @@
-# Improving Single Domain-Generalized Object Detection: A Focus on Diversification and Alignment [CVPR-2024]
+# Few-Shot Domain Adaptive Object Detection for Microscopic Imagest - MICCAI-2024
 <p align="center">
     <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
 </p>
