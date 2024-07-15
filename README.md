@@ -3,7 +3,7 @@
     <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
 </p>
 
-#### [Muhammad Sohail Danish](https://www.linkedin.com/in/muhammad-sohail-danish/)<sup>1</sup>, [Muhammad Haris Khan](https://m-haris-khan.com/)<sup>1</sup>, [Muhammad Akhtar Munir](https://akhtarvision.github.io/)<sup>1,2</sup>, [M. Sarfraz](https://ssarfraz.github.io/)<sup>3,4</sup> and [Mohsen Ali](https://mohsenali.github.io/)<sup>2</sup>
+#### [Sumayya Inayat](https://www.linkedin.com/in/sumayya-inayat/)<sup>1</sup>, [Nimra Dilawar](https://www.linkedin.com/in/nimradilawar/)<sup>1</sup>, [Waqas Sultani](https://www.linkedin.com/in/waqas-sultani-ph-d-3549bb60/)<sup>1,2</sup> and [Mohsen Ali](https://mohsenali.github.io/)<sup>2</sup>
 
 #### **<sup>1</sup>Mohamed bin Zayed University of AI, <sup>2</sup>Information Technology University of Punjab, <sup>3</sup>Mercedes-Benz Tech Innovation, <sup>4</sup>Karlsruhe Institute of Technology**
 
