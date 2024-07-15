@@ -35,7 +35,7 @@ Coming Soon
 
 ## 👁️💬 Augmentation
 <p align="center">
-  <img style="width: 80%;"src="tool/Augmentation_.png">
+  <img style="width: 50%;"src="tool/Augmentation_.png">
 </p>
 
 ## 🔍 Quantitative Results
