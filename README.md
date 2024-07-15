@@ -15,7 +15,7 @@
 ## Framewrok
 
 <p align="center">
-  <img style="width: 80%;" src="tool/ProposedFrameWork_.png" alt="Framework">
+  <img style="width: 70%;" src="tool/ProposedFrameWork_.png" alt="Framework">
 </p>
 
 ## Motivation
@@ -35,21 +35,21 @@ Coming Soon
 
 ## 👁️💬 Augmentation
 <p align="center">
-  <img style="width: 50%;"src="tool/Augmentation_.png">
+  <img style="width: 60%;"src="tool/Augmentation_.png">
 </p>
 
 ## 🔍 Quantitative Results
 <p align="center">
-  <img style="width: 80%;"src="tool/Malaria_HCM2LCM_test.png">
+  <img style="width: 60%;"src="tool/Malaria_HCM2LCM_test.png">
 </p>
 <p align="center">
-  <img style="width: 80%;" src="tool/Rabin_WBC_HCM2LCM_test.png">
+  <img style="width: 60%;" src="tool/Rabin_WBC_HCM2LCM_test.png">
 </p>
 
 
 ## 📊 Qualitative Results
 <p align="center">
-  <img style="width: 80%;" src="tool/Qualitative_Results.png">
+  <img style="width: 60%;" src="tool/Qualitative_Results.png">
 </p>
 
 
