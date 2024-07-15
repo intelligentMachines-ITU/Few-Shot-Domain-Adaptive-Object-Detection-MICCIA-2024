@@ -12,22 +12,23 @@
 
 [comment]: [![Weights](https://img.shields.io/badge/Model-Weights-87CEEB)](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/muhammad_sohail_mbzuai_ac_ae/Ei-vfphu1RVOs0Zkle8vSD8Bub6XxaPxBnwEY2j5uWCVbQ?e=cjbFIU)
 
+## Framewrok
+
+<p align="center">
+  <img style="width: 80%;" src="tool/ProposedFrameWork_.png" alt="Results_GCG">
+</p>
 ---
-
-## 📢 Latest Updates
-- **Jun-15-24**: We open source the code, models.🔥🔥
-- **Jun-10-24**: DivAlign paper is released [arxiv link](https://arxiv.org/abs/2405.14497). 🔥🔥
-- **Feb-27-24**: DivAlign has been accepted to **CVPR-24** 🎉. 
----
-
-
 
 ## Motivation
 Few-shot domain adaptive object detection (FSDAOD) addresses the challenge of adapting object detectors to target domains with limited labeled data. We propose a novel FSDAOD strategy for microscopic imaging. Our contributions include: 1) a domain adaptive class balancing strategy for few shot scenarios; 2) multi-layer instance-level inter and intra-domain alignment by enhancing similarity between the instances of classes regardless of the domain and enhancing dissimilarity when it’s not. Furthermore, an instance-level classification loss is applied in the middle layers of the object detector to enforce the retention of features necessary for the correct classification regardless of the domain. Extensive experimental results with competitive baselines indicate the effectiveness of our proposed framework by achieving state-of-the-art results on two public microscopic datasets.
 
+
+
+
 ### Installation
-Our code is based on [Mask R-CNN Benchmark](https://github.com/facebookresearch/maskrcnn-benchmark). \
+[comment]: Our code is based on [Mask R-CNN Benchmark](https://github.com/facebookresearch/maskrcnn-benchmark). \
 Check [INSTALL.md](INSTALL.md) for installation instructions. 
+
 
 
 
