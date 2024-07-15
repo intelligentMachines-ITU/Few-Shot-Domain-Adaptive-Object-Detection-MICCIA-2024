@@ -1,6 +1,6 @@
 # Few-Shot Domain Adaptive Object Detection for Microscopic Imagest - MICCAI-2024
 <p align="center">
-    <img src="https://imgur.com/a/vRn5bSn">
+    <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
 </p>
 
 #### [Sumayya Inayat](https://www.linkedin.com/in/sumayya-inayat/)<sup>1</sup>, [Nimra Dilawar](https://www.linkedin.com/in/nimradilawar/)<sup>1</sup>, [Waqas Sultani](https://www.linkedin.com/in/waqas-sultani-ph-d-3549bb60/)<sup>1</sup> and [Mohsen Ali](https://mohsenali.github.io/)<sup>1</sup>
