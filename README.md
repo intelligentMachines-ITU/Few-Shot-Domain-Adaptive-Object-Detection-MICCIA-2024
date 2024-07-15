@@ -22,38 +22,42 @@
 Few-shot domain adaptive object detection (FSDAOD) addresses the challenge of adapting object detectors to target domains with limited labeled data. We propose a novel FSDAOD strategy for microscopic imaging. Our contributions include: 1) a domain adaptive class balancing strategy for few shot scenarios; 2) multi-layer instance-level inter and intra-domain alignment by enhancing similarity between the instances of classes regardless of the domain and enhancing dissimilarity when it’s not. Furthermore, an instance-level classification loss is applied in the middle layers of the object detector to enforce the retention of features necessary for the correct classification regardless of the domain. Extensive experimental results with competitive baselines indicate the effectiveness of our proposed framework by achieving state-of-the-art results on two public microscopic datasets.
 
 ### Installation
+Coming Soon
 
 ### Datasets
+Coming Soon
 
 ### Training
+Coming Soon
 
 ### Evaluation
+Coming Soon
 
 [comment]: ## 👁️💬 Architecture
 
 
 ## 🔍 Quantitative Results
+<p align="center">
+  <img style="width: 80%;"src=tool/Malaria_HCM2LCM_test.png">
+</p>
+<p align="center">
+  <img style="width: 80%;" src="tool/Rabin_WBC_HCM->LCM_test.png">
+</p>
 
 
 ## 📊 Qualitative Results
-
-Qualitative results of baseline (Faster-RCNN), only diversifying domain, and our method.
 <p align="center">
-  <img style="width: 80%;"tool/Malaria_HCM->LCM_test.png" alt="Results_GCG">
-</p>
-<p align="center">
-  <img style="width: 80%;" src="tool/Rabin_WBC_HCM->LCM_test.png" alt="Results_GCG">
+  <img style="width: 80%;" src="tool/Qualitative_Results.png">
 </p>
 ---
 
 
 ## 📜 Citation
 ```bibtex
-@inproceedings{danish2024improving,
-  title={Improving Single Domain-Generalized Object Detection: A Focus on Diversification and Alignment},
-  author={Danish, Muhammad Sohail and Khan, Muhammad Haris and Munir, Muhammad Akhtar and Sarfraz, M Saquib and Ali, Mohsen},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={17732--17742},
-  year={2024}
+@article{inayat2024few,
+    title={Few-Shot Domain Adaptive Object Detection for Microscopic Images},
+    author={Inayat, Sumayya and Dilawar, Nimra and Sultani, Waqas and Ali, Mohsen},
+    journal={arXiv preprint arXiv:2407.07633},
+    year={2024}
 }
 ```
