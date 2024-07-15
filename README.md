@@ -8,6 +8,7 @@
 #### **<sup>1</sup>Information Technology University (ITU) Lahore, Pakistan**
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2407.07633)
+[![Project Page](https://img.shields.io/badge/docs-latest-blue)](https://im.itu.edu.pk/few-shot-daodmi/)
 
 [comment]: [![Weights](https://img.shields.io/badge/Model-Weights-87CEEB)](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/muhammad_sohail_mbzuai_ac_ae/Ei-vfphu1RVOs0Zkle8vSD8Bub6XxaPxBnwEY2j5uWCVbQ?e=cjbFIU)
 
