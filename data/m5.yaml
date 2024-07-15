@@ -1,0 +1,36 @@
+# PASCAL VOC dataset http://host.robots.ox.ac.uk/pascal/VOC/
+# Train command: python train.py --data voc.yaml
+# Default dataset location is next to /yolov5:
+#   /parent_folder
+#     /VOC
+#     /yolov5
+
+
+# download command/URL (optional)
+#download: bash data/scripts/get_voc.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+#train: ../VOC/images/train/  # 16551 images
+#val: ../VOC/images/val/  # 4952 images  
+
+# We simply concat source data A and a few target data B for domain-aware data augmentation
+# other types of merging can also be explored and probably get better results :)
+
+#train: ./datasets/HCM_1000_source_only/yolo_train.txt  # train images (relative to 'path') 118287 images
+#train_400: yolo_train_400.txt
+#train_100: yolo_train_100.txt
+#target_1000: yolo_target_1000.txt  # train images (relative to 'path') 118287 images
+#target_400: yolo_target_400.txt
+train_source: [./datasets/HCM_1000_source_only/images/train,./datasets/random_5_shot/images/train]    # train images (relative to 'path') 118287 images
+train_aug: ./datasets/Olympus_tar_aug_5_shot/images/train #./datasets/HCM_aug_1000/yolo_train.txt
+#train_source: [./datasets/HCM_1000_source_only/yolo_train.txt,./datasets/random_2_shot/yolo_train.txt] 
+train_target: ./datasets/random_5_shot/images/train #./datasets/Fewshot_LCM_1000/yolo_train.txt
+val: ./datasets/HCM_1000_source_only/yolo_val.txt  # val images (relative to 'path') 5000 images
+test: ./datasets/HCM_1000_source_only/yolo_test.txt # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+#val: ./datasets/m5_1000/olympus/images/val #hcm 1000
+#test: ./datasets/m5_1000/olympus/images/test #hcm 1000
+# number of classes
+nc: 4
+
+# Classes
+names: ['gametocyte', 'schizont', 'trophozoite', 'ring']
