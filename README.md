@@ -7,9 +7,7 @@
 
 #### **<sup>1</sup>Information Technology University (ITU) Lahore, Pakistan**
 
-[![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/) 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2407.07633)
-[![Project Page]([https://img.shields.io/badge/any_text-you_like-blue](https://camo.githubusercontent.com/9eaca04436ba029b50c45b0a57446b3ab620adfb6c889eca8a0016ed96a1fdb0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f696e666f726d6174696f6e616c2d696e666f726d6174696f6e616c2e737667))]([https://pytorch.org/](https://im.itu.edu.pk/few-shot-daodmi/)) 
 
 [comment]: [![Weights](https://img.shields.io/badge/Model-Weights-87CEEB)](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/muhammad_sohail_mbzuai_ac_ae/Ei-vfphu1RVOs0Zkle8vSD8Bub6XxaPxBnwEY2j5uWCVbQ?e=cjbFIU)
 
