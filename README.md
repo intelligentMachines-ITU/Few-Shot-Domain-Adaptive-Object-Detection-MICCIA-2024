@@ -33,15 +33,17 @@ Coming Soon
 ### Evaluation
 Coming Soon
 
-[comment]: ## 👁️💬 Architecture
-
+## 👁️💬 Augmentation
+<p align="center">
+  <img style="width: 80%;"src="tool/Augmentation_.png">
+</p>
 
 ## 🔍 Quantitative Results
 <p align="center">
-  <img style="width: 80%;"src=tool/Malaria_HCM2LCM_test.png">
+  <img style="width: 80%;"src="tool/Malaria_HCM2LCM_test.png">
 </p>
 <p align="center">
-  <img style="width: 80%;" src="tool/Rabin_WBC_HCM->LCM_test.png">
+  <img style="width: 80%;" src="tool/Rabin_WBC_HCM2LCM_test.png">
 </p>
 
 
@@ -49,7 +51,6 @@ Coming Soon
 <p align="center">
   <img style="width: 80%;" src="tool/Qualitative_Results.png">
 </p>
----
 
 
 ## 📜 Citation
