@@ -1,11 +1,11 @@
 # Few-Shot Domain Adaptive Object Detection for Microscopic Imagest - MICCAI-2024
 <p align="center">
-    <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
+    <img src="https://imgur.com/a/vRn5bSn" alt="Oryx Video-ChatGPT">
 </p>
 
-#### [Sumayya Inayat](https://www.linkedin.com/in/sumayya-inayat/)<sup>1</sup>, [Nimra Dilawar](https://www.linkedin.com/in/nimradilawar/)<sup>1</sup>, [Waqas Sultani](https://www.linkedin.com/in/waqas-sultani-ph-d-3549bb60/)<sup>1,2</sup> and [Mohsen Ali](https://mohsenali.github.io/)<sup>2</sup>
+#### [Sumayya Inayat](https://www.linkedin.com/in/sumayya-inayat/)<sup>1</sup>, [Nimra Dilawar](https://www.linkedin.com/in/nimradilawar/)<sup>1</sup>, [Waqas Sultani](https://www.linkedin.com/in/waqas-sultani-ph-d-3549bb60/)<sup>1</sup> and [Mohsen Ali](https://mohsenali.github.io/)<sup>1</sup>
 
-#### **<sup>1</sup>Mohamed bin Zayed University of AI, <sup>2</sup>Information Technology University of Punjab, <sup>3</sup>Mercedes-Benz Tech Innovation, <sup>4</sup>Karlsruhe Institute of Technology**
+#### **<sup>1</sup>Information Technology University (ITU) Lahore, Pakistan**
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2405.14497)
 [![Weights](https://img.shields.io/badge/Model-Weights-87CEEB)](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/muhammad_sohail_mbzuai_ac_ae/Ei-vfphu1RVOs0Zkle8vSD8Bub6XxaPxBnwEY2j5uWCVbQ?e=cjbFIU)
