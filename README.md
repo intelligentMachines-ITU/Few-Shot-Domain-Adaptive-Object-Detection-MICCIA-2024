@@ -47,10 +47,37 @@ pip install requirements.txt
 - Convert the raabin data into YOLOFormat format using `preprocessing/orig_raabin2yolo.py`
 - Datasets are stored in the `./datasets` folder like following structure:
 
-### Training
+  - datasets/
+  - m5-malaria/
+    - images/
+      - test/
+      - train/
+        - 1000x/
+           Malaria_CM1_21Jun2021101548_0001_127.9_10.9_1000x.png
+           .
+           .
+      - val/
+    - labels/
+      - test/
+      - train/
+        - 1000x/
+           Malaria_CM1_21Jun2021101548_0001_127.9_10.9_1000x.txt
+           .
+           .
+      - val/
+
+## Dataset Generation
+- Data Generation with Class Balancing Cut Paste Augmentation
+```bash
+conda create -n i2da python=3.7
+conda activate i2da
+pip install requirements.txt
+```
+
+## Training
 Coming Soon
 
-### Evaluation
+## Evaluation
 Coming Soon
 
 ## 👁️💬 Augmentation
