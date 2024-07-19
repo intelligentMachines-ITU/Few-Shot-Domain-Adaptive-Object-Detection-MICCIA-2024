@@ -3,9 +3,9 @@
     <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
 </p>
 
-#### [Sumayya Inayat](https://www.linkedin.com/in/sumayya-inayat/), [Nimra Dilawar](https://www.linkedin.com/in/nimradilawar/), [Waqas Sultani](https://www.linkedin.com/in/waqas-sultani-ph-d-3549bb60, [Mohsen Ali](https://mohsenali.github.io/)
+#### [Sumayya Inayat](https://www.linkedin.com/in/sumayya-inayat/), [Nimra Dilawar](https://www.linkedin.com/in/nimradilawar/), [Waqas Sultani](https://www.linkedin.com/in/waqas-sultani-ph-d-3549bb60), [Mohsen Ali](https://mohsenali.github.io/)
 
-#### **<sup>1</sup>Information Technology University (ITU) Lahore, Pakistan**
+#### **Information Technology University (ITU) Lahore, Pakistan**
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2407.07633)
 [![Project Page](https://img.shields.io/badge/IML-Project_Page-blue)](https://im.itu.edu.pk/few-shot-daodmi/)
@@ -22,14 +22,14 @@
 Few-shot domain adaptive object detection (FSDAOD) addresses the challenge of adapting object detectors to target domains with limited labeled data. We propose a novel FSDAOD strategy for microscopic imaging. Our contributions include: 1) a domain adaptive class balancing strategy for few shot scenarios; 2) multi-layer instance-level inter and intra-domain alignment by enhancing similarity between the instances of classes regardless of the domain and enhancing dissimilarity when it’s not. Furthermore, an instance-level classification loss is applied in the middle layers of the object detector to enforce the retention of features necessary for the correct classification regardless of the domain. Extensive experimental results with competitive baselines indicate the effectiveness of our proposed framework by achieving state-of-the-art results on two public microscopic datasets.
 
 ## Contents
-1. [Installation Instructions](https://dillinger.io/#Installation)
+1. [Installation Instructions](#Installation-instruction)
 2. [Dataset Preparation](https://dillinger.io/#dataset-preparation)
 3. [Training](https://dillinger.io/#training)
 4. [Evaluation](https://dillinger.io/#evaluation)
 5. [Citation](https://dillinger.io/#citation)
 
 
-## Installation
+## Installation instruction
 - We use Python 3.7, CUDA >= 11.0
 
 ```bash
