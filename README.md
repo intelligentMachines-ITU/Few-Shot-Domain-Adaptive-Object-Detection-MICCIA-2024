@@ -69,14 +69,15 @@ pip install requirements.txt
       - val/
 
 ## 👁️💬 Dataset Generation
+- Data Generation with Class Balancing Cut Paste Augmentation
+
 <p align="center">
   <img style="width: 60%;"src="tool/Augmentation_.png">
 </p>
-- Data Generation with Class Balancing Cut Paste Augmentation
+
 - Following will generate a folder for malaria `HCM_tar_aug` and raabin `Rabin_tar_aug`
-```bash
-preprocessing/cut_mix_m5.py
-```
+- <kbd>preprocessing/cut_mix_m5.py</kbd>
+
 
 ## Training
 Add path of folder containing augmented dataset in `data/m5.yaml`
