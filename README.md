@@ -24,9 +24,12 @@ Few-shot domain adaptive object detection (FSDAOD) addresses the challenge of ad
 ## Contents
 1. [Installation Instructions](#Installation-instruction)
 2. [Dataset Preparation](#Dataset-Preparation)
-3. [Training](https://dillinger.io/#training)
-4. [Evaluation](https://dillinger.io/#evaluation)
-5. [Citation](https://dillinger.io/#citation)
+3. [Dataset Generation](##Dataset-Generation)
+4. [Training](#Training)
+5. [Evaluation](#Evaluation)
+6. [Quantitative Results](#Quantitative-Results)
+7. [Qualitative Results](#Qualitative-Results)
+8. [Citation](#Citation)
 
 
 ## Installation instruction
@@ -65,7 +68,10 @@ pip install requirements.txt
           - ...
       - val/
 
-## Dataset Generation
+## 👁️💬 Dataset Generation
+<p align="center">
+  <img style="width: 60%;"src="tool/Augmentation_.png">
+</p>
 - Data Generation with Class Balancing Cut Paste Augmentation
 - Following will generate a folder for malaria `HCM_tar_aug` and raabin `Rabin_tar_aug`
 ```bash
@@ -89,11 +95,6 @@ train_contrat.py --cfg ./models/yolov5x.yaml \ --hyp ./data/hyp.finetune.yaml \ 
 test.py --weights ./runs/train/exp2/weights  \ --batch-size 2 --task test --data ./data/m5.yaml
 
 ```
-
-## 👁️💬 Augmentation
-<p align="center">
-  <img style="width: 60%;"src="tool/Augmentation_.png">
-</p>
 
 ## 🔍 Quantitative Results
 <p align="center">
@@ -121,45 +122,12 @@ test.py --weights ./runs/train/exp2/weights  \ --batch-size 2 --task test --data
 ```
 
 ## 📜 Acknowledgement
-## Datasets Structure
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Few-Shot Domain Adaptive Object Detection for Microscopic Images
-
-[![Framework: PyTorch](./Miccai_Readme file_files/Framework-PyTorch-orange.svg)](https://pytorch.org/)
-
-#### Contributions
-- We propose a novel FDAOD strategy for microscopic imaging.
-- We propose a domain adaptive class balancing cut paste (CBCP) strategy for few shot scenario; multi-layer instance-level inter and intra-domain alignment by enhancing similarity between the instances of classes regardless of the domain and enhance dissimilarity when it’s not.
-- We propose Intra-Inter-Domain Feature Alignment technique; I2DA, that addresses (a) the domain shift between similar class cells by aligning the inter-domain feature level representations of cells coming from same classes, and (b) Intra-Domain Feature Consistency at the cell level to learn distinguishable features for each class because the foreground cells in microscopic datasets possess high visual similarity with the background cells.
 
 
 
