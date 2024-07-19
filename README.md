@@ -29,8 +29,14 @@ Few-shot domain adaptive object detection (FSDAOD) addresses the challenge of ad
 5. [Citation](https://dillinger.io/#citation)
 
 
-###Installation
-Coming Soon
+## Installation
+- We use Python 3.7, CUDA >= 11.0
+
+```bash
+conda create -n i2da python=3.7
+conda activate i2da
+pip install requirements.txt
+
 
 ### Datasets
 Coming Soon
@@ -108,10 +114,3 @@ Coming Soon
 
 
 
-## Installation Instructions
-- We use Python 3.7, CUDA >= 11.0
-
-```bash
-conda create -n i2da python=3.7
-conda activate i2da
-pip install requirements.txt
