@@ -170,19 +170,5 @@ Datasets are stored in the <code>./datasets</code> folder like following structu
 </div>
 </div>
 </div>
-<script src="./Miccai_Readme file_files/monetization.js" type="text/javascript"></script>
-<script>
-  (function () {
-    if (typeof _bsa !== 'undefined' && _bsa) {
-      _bsa.init('default', 'CVADP53W', 'placement:dillingerio', {
-        target: '.ad-container',
-        align: 'horizontal',
-        disable_css: 'true'
-      });
-    }
-  })();
-</script>
-<script src="./Miccai_Readme file_files/main.bundle.js" type="text/javascript" async=""></script>
-
 
 </body></html>
