@@ -49,23 +49,23 @@ pip install requirements.txt
 
 ```bash
   - datasets/
-      - m5-malaria/
-        - images/
-          - test/
-          - train/
-            - 1000x/
-               Malaria_CM1_21Jun2021101548_0001_127.9_10.9_1000x.png
-               .
-               .
-          - val/
-        - labels/
-          - test/
-          - train/
-            - 1000x/
-               Malaria_CM1_21Jun2021101548_0001_127.9_10.9_1000x.txt
-               .
-               .
-          - val/
+  - m5-malaria/
+    - images/
+      - test/
+      - train/
+        - 1000x/
+           Malaria_CM1_21Jun2021101548_0001_127.9_10.9_1000x.png
+           .
+           .
+      - val/
+    - labels/
+      - test/
+      - train/
+        - 1000x/
+           Malaria_CM1_21Jun2021101548_0001_127.9_10.9_1000x.txt
+           .
+           .
+      - val/
 ```
 ## Dataset Generation
 - Data Generation with Class Balancing Cut Paste Augmentation
