@@ -48,7 +48,7 @@ pip install requirements.txt
 - Datasets are stored in the `./datasets` folder like following structure:
 
 ```bash
-  - datasets/
+- datasets/
   - m5-malaria/
     - images/
       - test/
@@ -69,10 +69,10 @@ pip install requirements.txt
 ```
 ## Dataset Generation
 - Data Generation with Class Balancing Cut Paste Augmentation
+- Following will generate a folder for malaria `HCM_tar_aug` and raabin `Rabin_tar_aug`
 ```bash
-conda create -n i2da python=3.7
-conda activate i2da
-pip install requirements.txt
+preprocessing/cut_mix_m5.py
+preprocessing/cut_mix_rabin.py
 ```
 
 ## Training
