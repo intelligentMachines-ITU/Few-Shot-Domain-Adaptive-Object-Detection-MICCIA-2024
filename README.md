@@ -23,7 +23,7 @@ Few-shot domain adaptive object detection (FSDAOD) addresses the challenge of ad
 
 ## Contents
 1. [Installation Instructions](#Installation-instruction)
-2. [Dataset Preparation](https://dillinger.io/#dataset-preparation)
+2. [Dataset Preparation](#Dataset-Preparation)
 3. [Training](https://dillinger.io/#training)
 4. [Evaluation](https://dillinger.io/#evaluation)
 5. [Citation](https://dillinger.io/#citation)
@@ -39,8 +39,13 @@ conda activate i2da
 pip install requirements.txt
 ```
 
-### Datasets
-Coming Soon
+## Dataset Preparation
+- M5-Malaria-Dataset: Download the dataset from [Link](https://github.com/intelligentMachines-ITU/LowCostMalariaDetection_CVPR_2022).
+- Raabin-WBC Dataset: Download the dataset from [Link](https://raabindata.com/).
+
+- Convert the malaria data into YOLOFormat format using `preprocessing/full_m5_To_yolo.py`
+- Convert the raabin data into YOLOFormat format using `preprocessing/orig_raabin2yolo.py`
+- Datasets are stored in the `./datasets` folder like following structure:
 
 ### Training
 Coming Soon
