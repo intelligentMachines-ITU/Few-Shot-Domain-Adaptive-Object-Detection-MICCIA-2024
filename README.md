@@ -47,39 +47,48 @@ pip install requirements.txt
 - Convert the raabin data into YOLOFormat format using `preprocessing/orig_raabin2yolo.py`
 - Datasets are stored in the `./datasets` folder like following structure:
 
-```bash
+
 - datasets/
   - m5-malaria/
     - images/
       - test/
       - train/
         - 1000x/
-           Malaria_CM1_21Jun2021101548_0001_127.9_10.9_1000x.png
-           .
-           .
+          - Malaria_CM1_21Jun2021101548_0001_127.9_10.9_1000x.png
+          - ...
       - val/
     - labels/
       - test/
       - train/
         - 1000x/
-           Malaria_CM1_21Jun2021101548_0001_127.9_10.9_1000x.txt
-           .
-           .
+          - Malaria_CM1_21Jun2021101548_0001_127.9_10.9_1000x.txt
+          - ...
       - val/
-```
+
 ## Dataset Generation
 - Data Generation with Class Balancing Cut Paste Augmentation
 - Following will generate a folder for malaria `HCM_tar_aug` and raabin `Rabin_tar_aug`
 ```bash
 preprocessing/cut_mix_m5.py
-preprocessing/cut_mix_rabin.py
 ```
 
 ## Training
-Coming Soon
+Add path of folder containing augmented dataset in `data/m5.yaml`
+- For Complete Training
+```bash
+train.py --cfg ./models/yolov5x.yaml \ --hyp ./data/hyp.finetune.yaml \ --epoch 100 --batch 4 --data ./data/m5.yaml
 
+```
+- Train model for only Domain Alignment
+```bash
+train_contrat.py --cfg ./models/yolov5x.yaml \ --hyp ./data/hyp.finetune.yaml \ --epoch 100 --batch 4 --data ./data/m5.yaml
+
+```
 ## Evaluation
-Coming Soon
+```bash
+test.py --weights ./runs/train/exp2/weights  \ --batch-size 2 --task test --data ./data/m5.yaml
+
+```
 
 ## 👁️💬 Augmentation
 <p align="center">
@@ -110,6 +119,12 @@ Coming Soon
     year={2024}
 }
 ```
+
+## 📜 Acknowledgement
+## Datasets Structure
+
+
+
 
 
 
