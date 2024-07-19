@@ -75,12 +75,12 @@ pip install requirements.txt
   <img style="width: 60%;"src="tool/Augmentation_.png">
 </p>
 
-- Following will generate a folder for malaria `HCM_tar_aug` and raabin `Rabin_tar_aug`
+- Following will generate a folder for malaria <kbd>HCM_tar_aug</kbd> and raabin <kbd>Rabin_tar_aug</kbd>
 - <kbd>preprocessing/cut_mix_m5.py</kbd>
 
 
 ## Training
-Add path of folder containing augmented dataset in `data/m5.yaml`
+Add path of folder containing augmented dataset in <kbd>data/m5.yaml</kbd>
 - For Complete Training
 ```bash
 train.py --cfg ./models/yolov5x.yaml \ --hyp ./data/hyp.finetune.yaml \ --epoch 100 --batch 4 --data ./data/m5.yaml
