@@ -46,9 +46,9 @@ pip install requirements.txt
 - M5-Malaria-Dataset: Download the dataset from [Link](https://github.com/intelligentMachines-ITU/LowCostMalariaDetection_CVPR_2022).
 - Raabin-WBC Dataset: Download the dataset from [Link](https://raabindata.com/).
 
-- Convert the malaria data into YOLOFormat format using `preprocessing/full_m5_To_yolo.py`
-- Convert the raabin data into YOLOFormat format using `preprocessing/orig_raabin2yolo.py`
-- Datasets are stored in the `./datasets` folder like following structure:
+- Convert the malaria data into YOLOFormat format using <kbd>preprocessing/full_m5_To_yolo.py</kbd>
+- Convert the raabin data into YOLOFormat format using <kbd>preprocessing/orig_raabin2yolo.py</kbd>
+- Datasets are stored in the <kbd>./datasets</kbd> folder like following structure:
 
 
 - datasets/
