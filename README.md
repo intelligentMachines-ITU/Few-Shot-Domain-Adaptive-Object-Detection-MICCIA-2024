@@ -21,7 +21,15 @@
 ## Motivation
 Few-shot domain adaptive object detection (FSDAOD) addresses the challenge of adapting object detectors to target domains with limited labeled data. We propose a novel FSDAOD strategy for microscopic imaging. Our contributions include: 1) a domain adaptive class balancing strategy for few shot scenarios; 2) multi-layer instance-level inter and intra-domain alignment by enhancing similarity between the instances of classes regardless of the domain and enhancing dissimilarity when it’s not. Furthermore, an instance-level classification loss is applied in the middle layers of the object detector to enforce the retention of features necessary for the correct classification regardless of the domain. Extensive experimental results with competitive baselines indicate the effectiveness of our proposed framework by achieving state-of-the-art results on two public microscopic datasets.
 
-### Installation
+## Contents
+1. [Installation Instructions](https://dillinger.io/#Installation)
+2. [Dataset Preparation](https://dillinger.io/#dataset-preparation)
+3. [Training](https://dillinger.io/#training)
+4. [Evaluation](https://dillinger.io/#evaluation)
+5. [Citation](https://dillinger.io/#citation)
+
+
+###Installation
 Coming Soon
 
 ### Datasets
@@ -98,12 +106,7 @@ Coming Soon
 - We propose a domain adaptive class balancing cut paste (CBCP) strategy for few shot scenario; multi-layer instance-level inter and intra-domain alignment by enhancing similarity between the instances of classes regardless of the domain and enhance dissimilarity when it’s not.
 - We propose Intra-Inter-Domain Feature Alignment technique; I2DA, that addresses (a) the domain shift between similar class cells by aligning the inter-domain feature level representations of cells coming from same classes, and (b) Intra-Domain Feature Consistency at the cell level to learn distinguishable features for each class because the foreground cells in microscopic datasets possess high visual similarity with the background cells.
 
-## Contents
-1. [Installation Instructions](https://dillinger.io/#installation-instructions)
-2. [Dataset Preparation](https://dillinger.io/#dataset-preparation)
-3. [Training](https://dillinger.io/#training)
-4. [Evaluation](https://dillinger.io/#evaluation)
-5. [Citation](https://dillinger.io/#citation)
+
 
 ## Installation Instructions
 - We use Python 3.7, CUDA >= 11.0
