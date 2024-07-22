@@ -68,7 +68,7 @@ pip install requirements.txt
           - ...
       - val/
 
-## 👁️💬 Dataset Generation
+## Dataset Generation
 - Data Generation with Class Balancing Cut Paste Augmentation
 
 <p align="center">
@@ -112,7 +112,7 @@ test.py --weights ./runs/train/exp2/weights  \ --batch-size 2 --task test --data
 </p>
 
 
-## 📜 Citation
+## Citation
 ```bibtex
 @article{inayat2024few,
     title={Few-Shot Domain Adaptive Object Detection for Microscopic Images},
@@ -122,8 +122,7 @@ test.py --weights ./runs/train/exp2/weights  \ --batch-size 2 --task test --data
 }
 ```
 
-## 📜 Acknowledgement
-
+## Acknowledgement
 
 
 
